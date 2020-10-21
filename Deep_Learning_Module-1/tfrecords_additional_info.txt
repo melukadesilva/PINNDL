@@ -7,3 +7,6 @@ https://stackoverflow.com/questions/55201347/when-should-one-use-tf-train-bytesl
 
 More on building tf.data input pipelines
 https://heartbeat.fritz.ai/building-a-data-pipeline-with-tensorflow-3047656b5095
+
+Deep dive into protocol buffers:
+https://gshbehera.medium.com/serialization-deserialization-with-protobufs-223d401f621d
