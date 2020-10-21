@@ -1,0 +1,9 @@
+To know more info on TFRecord files:
+https://medium.com/mostly-ai/tensorflow-records-what-they-are-and-how-to-use-them-c46bc4bbb564
+https://towardsdatascience.com/tfrecords-explained-24b8f2133282
+
+On why saving images as byte strings:
+https://stackoverflow.com/questions/55201347/when-should-one-use-tf-train-byteslist-tf-train-floatlist-and-tf-train-int64li
+
+More on building tf.data input pipelines
+https://heartbeat.fritz.ai/building-a-data-pipeline-with-tensorflow-3047656b5095
