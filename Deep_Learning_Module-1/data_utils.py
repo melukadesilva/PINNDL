@@ -1,4 +1,5 @@
 ## clone https://github.com/0kt0pus/ml_utils.git and install using setup.py
+## The dataset can be downloaded from http://host.robots.ox.ac.uk/pascal/VOC/
 from ml_utils.utils import function_utils as fu
 import xml.etree.ElementTree as ET
 import os
@@ -135,8 +136,8 @@ def encode_label(label_name_list, label_name):
     return label_name_list.index(label_name)
     
 
-anno_dir = '/media/akaaku13m/af04068d-3c77-49e2-977e-15b2e7dd348e/public_data/VOCdevkit/VOC2012/Annotations'
-img_dir = '/media/akaaku13m/af04068d-3c77-49e2-977e-15b2e7dd348e/public_data/VOCdevkit/VOC2012/JPEGImages'
+anno_dir = 'VOCdevkit/VOC2012/Annotations'
+img_dir = 'VOCdevkit/VOC2012/JPEGImages'
 label_file = './labels.txt'
 record_path = './pascalvoc_max_32_set.tfrecords'
 
